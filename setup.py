@@ -6,9 +6,9 @@ def readme():
         return f.read()
 
 
-setup(name='funniest',
+setup(name='StarterPackage',
       version='0.1',
-      description='The funniest joke in the world',
+      description='python started package',
       long_description=readme(),
       classifiers=[
         'Development Status :: 3 - Alpha',
@@ -16,14 +16,14 @@ setup(name='funniest',
         'Programming Language :: Python :: 2.7',
         'Topic :: Text Processing :: Linguistic',
       ],
-      keywords='funniest joke comedy flying circus',
-      url='http://github.com/storborg/funniest',
+      keywords='python-starter-project',
+      url='http://github.com/mandarup/python-starter-project',
       author='Flying Circus',
       author_email='flyingcircus@example.com',
       license='MIT',
       packages=['funniest'],
       install_requires=[
-          'markdown',
+         
       ],
       test_suite='nose.collector',
       tests_require=['nose', 'nose-cover3'],
